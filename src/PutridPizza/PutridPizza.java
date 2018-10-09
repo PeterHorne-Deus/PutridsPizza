@@ -140,6 +140,8 @@ public class PutridPizza extends javax.swing.JFrame {
         taxLbl.setText("Tax: " + money.format(tax));
         totalLbl.setText("Total: " + money.format(total));
         
+        //Reseting
+        diameterInputTxtField.setText(" ");
     }//GEN-LAST:event_calculateBtnActionPerformed
 
     /**
